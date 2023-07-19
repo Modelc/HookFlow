@@ -1,5 +1,5 @@
 Webhook Router API
-This project is a simple Node.js server that acts as a middleware to route incoming webhooks to multiple destinations. It's designed to receive data from a blockchain provider and forward it to multiple Firebase projects or any other endpoints.
+This project is a simple Node.js server that acts as a middleware to route incoming webhooks to multiple destinations. It's designed to receive data from a  provider and forward it to multiple Firebase projects or any other endpoints.
 
 Features
 Environment variable support for secure data storage.
@@ -24,8 +24,8 @@ Install required packages:
 npm install
 Set up your environment variables. Create a .env file in the root of the project and add the following:
 
-PROJECT_1_URL=https://<your-firebase-project-1-url>/webhook
-_PROJECT_2_URL=https://<your-firebase-project-2-url>/webhook
+PROJECT_1_URL=https://<your-project-1-url>/webhook
+PROJECT_2_URL=https://<your-project-2-url>/webhook
 API_KEY=yourapikey
 
 Replace the placeholders with your actual Firebase project URLs and API key.
